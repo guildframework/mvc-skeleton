@@ -6,5 +6,5 @@ Skeleton application for MVC framework
 To create your new Guild Framework project:
 
 ```bash
-$ composer create-project -sdev guildframework/mvc-skeleton skeleton-application
+$ composer create-project -s dev guildframework/mvc-skeleton skeleton-application
 ```
