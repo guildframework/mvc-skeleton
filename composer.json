@@ -1,0 +1,22 @@
+{
+  "name": "guildframework/mvc-skeleton",
+  "description": "Skeleton Application for MVC framework",
+  "type": "project",
+  "license": "GPL-3.0+",
+  "keywords": [
+    "framework",
+    "mvc"
+  ],
+  "homepage": "https://github.com/guildframework/mvc-skeleton",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^5.6 || ^7.0",
+    "guildframework/mvc": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Application\\": "module/Application/src/"
+    }
+  }
+}
